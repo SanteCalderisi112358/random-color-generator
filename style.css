@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    position: fixed;
+    background-color: var(--colorRandomH1);
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-color{
+    background-color: rgba(21,43,56,0.7);
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
